@@ -16,7 +16,6 @@ import net.minecraft.creativetab.CreativeTabs;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class FundamentalElectronics {
-    public static CreativeTabs creativeTab;
     @Instance(Reference.MOD_ID)
     public static FundamentalElectronics instance;
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
