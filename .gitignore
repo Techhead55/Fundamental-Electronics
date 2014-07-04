@@ -1,0 +1,10 @@
+gradlew.bat
+gradlew
+gradle/
+eclipse/
+Fundamental Electronics.iml
+Fundamental Electronics.ipr
+Fundamental Electronics.iws
+build.gradle
+.gradle/
+out/
