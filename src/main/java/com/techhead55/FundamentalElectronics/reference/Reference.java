@@ -6,4 +6,12 @@ public class Reference {
     public static final String CLIENT_PROXY_CLASS = "com.techhead55.FundamentalElectronics.proxy.ClientProxy";
     public static final String SERVER_PROXY_CLASS = "com.techhead55.FundamentalElectronics.proxy.ServerProxy";
     public static final String GUI_FACTORY_CLASS = "com.techhead55.FundamentalElectronics.client.gui.GuiFactory";
+    public class Items {
+        public class resistor {
+            public static final String unlocalisedName = "resistor";
+        }
+        public class capacitor {
+            public static final String unlocalisedName = "capacitor";
+        }
+    }
 }
