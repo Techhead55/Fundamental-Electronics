@@ -7,7 +7,9 @@ public class Items {
             new ItemResistor(),
             new ItemCapacitor(),
             new ItemDiode(),
-            new ItemTransistor()
+            new ItemTransistor(),
+            new ItemGalliumIngot(),
+            new ItemZincIngot()
     };
     public static void load(){
         Register.registerItems(list);

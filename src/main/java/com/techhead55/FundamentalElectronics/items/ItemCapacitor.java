@@ -5,8 +5,8 @@ import net.minecraft.creativetab.CreativeTabs;
 public class ItemCapacitor extends Item {
     public ItemCapacitor(){
         super();
-        setUnlocalizedName(Reference.Items.capacitor.unlocalisedName);
-        setTextureName(Reference.MOD_ID+":"+Reference.Items.capacitor.unlocalisedName);
+        setUnlocalizedName(Reference.componets.capacitor.unlocalisedName);
+        setTextureName(Reference.MOD_ID+":"+ Reference.componets.capacitor.unlocalisedName);
         setCreativeTab(CreativeTabs.tabMaterials);
         setMaxStackSize(64);
     }
