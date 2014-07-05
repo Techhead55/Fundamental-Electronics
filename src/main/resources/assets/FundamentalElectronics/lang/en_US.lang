@@ -1,2 +1,4 @@
-item.resistor.name=Resistor
-item.capacitor.name=Capacitor
+item.FE_resistor.name=Resistor
+item.FE_capacitor.name=Capacitor
+item.FE_diode.name=Diode
+item.FE_transistor.name=Transistor

@@ -13,7 +13,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
-
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class FundamentalElectronics {
     @Instance(Reference.MOD_ID)
@@ -29,7 +28,7 @@ public class FundamentalElectronics {
     }
     @EventHandler
     public void init(FMLInitializationEvent event){
-        Logger.info("All initialisation complete");
+        Logger.info("Initialisation complete");
     }
     @EventHandler
     public void postInit(FMLPostInitializationEvent event){

@@ -8,10 +8,16 @@ public class Reference {
     public static final String GUI_FACTORY_CLASS = "com.techhead55.FundamentalElectronics.client.gui.GuiFactory";
     public class Items {
         public class resistor {
-            public static final String unlocalisedName = "resistor";
+            public static final String unlocalisedName = "FE_resistor";
         }
         public class capacitor {
-            public static final String unlocalisedName = "capacitor";
+            public static final String unlocalisedName = "FE_capacitor";
+        }
+        public class transistor {
+            public static final String unlocalisedName = "FE_transistor";
+        }
+        public class diode {
+            public static final String unlocalisedName = "FE_diode";
         }
     }
 }

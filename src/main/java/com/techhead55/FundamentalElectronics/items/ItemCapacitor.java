@@ -6,7 +6,7 @@ public class ItemCapacitor extends Item {
     public ItemCapacitor(){
         super();
         setUnlocalizedName(Reference.Items.capacitor.unlocalisedName);
-        setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+        setTextureName(Reference.MOD_ID+":"+Reference.Items.capacitor.unlocalisedName);
         setCreativeTab(CreativeTabs.tabMaterials);
         setMaxStackSize(64);
     }

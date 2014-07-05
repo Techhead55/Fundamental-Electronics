@@ -6,7 +6,7 @@ public class ItemResistor extends Item {
     public ItemResistor(){
         super();
         setUnlocalizedName(Reference.Items.resistor.unlocalisedName);
-        setTextureName("generic:resistor");
+        setTextureName(Reference.MOD_ID+":"+Reference.Items.resistor.unlocalisedName);
         setCreativeTab(CreativeTabs.tabMaterials);
         setMaxStackSize(64);
     }
