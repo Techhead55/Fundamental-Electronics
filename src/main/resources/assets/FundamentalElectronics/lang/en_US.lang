@@ -1,6 +1,9 @@
-item.FE_resistor.name=Resistor
-item.FE_capacitor.name=Capacitor
-item.FE_diode.name=Diode
-item.FE_transistor.name=Transistor
+# General
+itemGroup.FE_CreativeTab = Fundamental Electronics
+
+# ITEMS, Subscript Reference ₀₁₂₃₄₅₆₇₈₉
 item.FE_galliumIngot.name=Gallium - ₃₁Ga
 item.FE_zincIngot.name=Zinc - ₃₀Zn
+item.FE_arsenicIngot.name=Arsenic - ₃₃As
+item.FE_aluminiumIngot.name=Aluminium - ₁₃Ai
+item.FE_siliconIngot.name=Silicon - ₁₄Si

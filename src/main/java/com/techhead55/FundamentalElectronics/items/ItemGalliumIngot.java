@@ -1,13 +1,9 @@
 package com.techhead55.FundamentalElectronics.items;
 import com.techhead55.FundamentalElectronics.reference.Reference;
-import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
-public class ItemGalliumIngot extends Item {
+public class ItemGalliumIngot extends ItemIngotBase {
     public ItemGalliumIngot(){
         super();
-        setUnlocalizedName(Reference.componets.gallium.ingot.unlocalisedName);
-        setTextureName(Reference.MOD_ID+":"+ Reference.componets.gallium.ingot.unlocalisedName);
-        setCreativeTab(CreativeTabs.tabMaterials);
-        setMaxStackSize(64);
+        setUnlocalizedName(Reference.componets.elements.gallium.ingot.unlocalisedName);
+        setTextureName(Reference.MOD_ID + ":" + Reference.componets.elements.gallium.ingot.unlocalisedName);
     }
 }

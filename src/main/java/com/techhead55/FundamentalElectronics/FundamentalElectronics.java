@@ -13,6 +13,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class FundamentalElectronics {
     @Instance(Reference.MOD_ID)
@@ -24,8 +26,16 @@ public class FundamentalElectronics {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         Items.load();
+
         Logger.info("Pre Initialisation Complete");
     }
+    // Creative Tab
+    public static CreativeTabs FundamentalElectronicsTab = new CreativeTabs(Reference.CREATIVE_TAB_UNLOCALISED_NAME){
+        @Override
+        public Item getTabIconItem() {
+            return Items.list[0];
+        }
+    };
     @EventHandler
     public void init(FMLInitializationEvent event){
         Logger.info("Initialisation complete");
