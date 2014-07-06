@@ -2,8 +2,8 @@
 itemGroup.FE_CreativeTab = Fundamental Electronics
 
 # ITEMS, Subscript Reference ₀₁₂₃₄₅₆₇₈₉
-item.FE_galliumIngot.name=Gallium - ₃₁Ga
-item.FE_zincIngot.name=Zinc - ₃₀Zn
-item.FE_arsenicIngot.name=Arsenic - ₃₃As
-item.FE_aluminiumIngot.name=Aluminium - ₁₃Ai
-item.FE_siliconIngot.name=Silicon - ₁₄Si
+item.galliumIngot.name=Gallium - ₃₁Ga
+item.zincIngot.name=Zinc - ₃₀Zn
+item.arsenicIngot.name=Arsenic - ₃₃As
+item.aluminiumIngot.name=Aluminium - ₁₃Ai
+item.siliconIngot.name=Silicon - ₁₄Si

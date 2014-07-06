@@ -21,7 +21,7 @@ public class Register {
     public static void registerItems(Item[] items){
         for (Item item : items){
             GameRegistry.registerItem(item, Reference.MOD_ID + "_" + item.getUnlocalizedName().substring(5));
-            Logger.info("The item "+item.getUnlocalizedName().substring(8, item.getUnlocalizedName().length())+" was registered.");
+            Logger.info("The item "+item.getUnlocalizedName().substring(5)+" was registered.");
         }
     }
 }
