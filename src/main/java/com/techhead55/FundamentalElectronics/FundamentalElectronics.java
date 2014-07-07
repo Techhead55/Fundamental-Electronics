@@ -1,4 +1,5 @@
 package com.techhead55.FundamentalElectronics;
+import com.techhead55.FundamentalElectronics.blocks.Blocks;
 import com.techhead55.FundamentalElectronics.handler.ConfigurationHandler;
 import com.techhead55.FundamentalElectronics.items.Items;
 import com.techhead55.FundamentalElectronics.proxy.IProxy;
@@ -26,16 +27,16 @@ public class FundamentalElectronics {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         Items.load();
-
+        Blocks.load();
         Logger.info("Pre Initialisation Complete");
     }
-    // Creative Tab
+    /* Creative Tab
     public static CreativeTabs FundamentalElectronicsTab = new CreativeTabs(Reference.CREATIVE_TAB_UNLOCALISED_NAME){
         @Override
         public Item getTabIconItem() {
             return Items.list[0];
         }
-    };
+    };*/
     @EventHandler
     public void init(FMLInitializationEvent event){
         Logger.info("Initialisation complete");

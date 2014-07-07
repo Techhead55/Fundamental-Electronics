@@ -14,3 +14,6 @@ item.aluminiumOxideWafer.name=Aluminium Oxide Wafer - Al₂O₃
 item.sodiumHydrogenCarbonatePowder.name=Sodium Hydrogen Carbonate - NaHCO₃
 item.sodiumChloridePowder.name=Sodium Chloride - NaCI
 item.sodiumChlorideCrystal.name=Sodium Chloride - NaCI
+
+# Blocks
+tile.crushingStation.name= Crushing Station
