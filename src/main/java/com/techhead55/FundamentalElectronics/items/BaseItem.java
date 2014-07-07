@@ -1,4 +1,5 @@
 package com.techhead55.FundamentalElectronics.items;
+import com.techhead55.FundamentalElectronics.creativetab.CreativeTab;
 import com.techhead55.FundamentalElectronics.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -8,7 +9,7 @@ import net.minecraft.item.Item;
 public class BaseItem extends Item{
     public BaseItem(){
         super();
-        setCreativeTab(CreativeTabs.tabMaterials);
+        setCreativeTab(CreativeTab.FE_TAB);
         setMaxStackSize(64);
     }
     @Override

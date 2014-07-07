@@ -1,5 +1,5 @@
 # General
-
+itemGroup.FundamentalElectronics = Fundamental Electronics
 
 # ITEMS, Subscript Reference ₀₁₂₃₄₅₆₇₈₉
 item.galliumIngot.name=Gallium - ₃₁Ga
@@ -17,3 +17,8 @@ item.sodiumChlorideCrystal.name=Sodium Chloride - NaCI
 
 # Blocks
 tile.crushingStation.name= Crushing Station
+tile.gallium.name= Gallium - ₃₁Ga
+tile.zinc.name=Zinc - ₃₀Zn
+tile.arsenic.name=Arsenic - ₃₃As
+tile.aluminium.name=Aluminium - ₁₃Ai
+tile.silicon.name=Silicon - ₁₄Si
