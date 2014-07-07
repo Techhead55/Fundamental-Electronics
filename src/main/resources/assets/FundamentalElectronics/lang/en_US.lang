@@ -1,5 +1,5 @@
 # General
-itemGroup.FE_CreativeTab = Fundamental Electronics
+
 
 # ITEMS, Subscript Reference ₀₁₂₃₄₅₆₇₈₉
 item.galliumIngot.name=Gallium - ₃₁Ga
@@ -7,3 +7,10 @@ item.zincIngot.name=Zinc - ₃₀Zn
 item.arsenicIngot.name=Arsenic - ₃₃As
 item.aluminiumIngot.name=Aluminium - ₁₃Ai
 item.siliconIngot.name=Silicon - ₁₄Si
+item.galliumArsenideBoule.name=Gallium Arsenide - GaAs
+item.aluminiumSulfatePowder.name=Aluminium Sulfate -  Al₂(SO₄)₃
+item.aluminiumHydroxidePowder.name=Aluminium Hydroxide -  Al(OH)₃
+item.aluminiumOxideWafer.name=Aluminium Oxide Wafer - Al₂O₃
+item.sodiumHydrogenCarbonatePowder.name=Sodium Hydrogen Carbonate - NaHCO₃
+item.sodiumChloridePowder.name=Sodium Chloride - NaCI
+item.sodiumChlorideCrystal.name=Sodium Chloride - NaCI
