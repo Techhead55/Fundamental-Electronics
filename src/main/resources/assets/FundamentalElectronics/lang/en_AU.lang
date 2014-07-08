@@ -1,0 +1,24 @@
+# General
+itemGroup.FundamentalElectronics =Mate its Fundamental Electronics
+
+# ITEMS, Subscript Reference ₀₁₂₃₄₅₆₇₈₉
+item.galliumIngot.name=Mate its Gallium - ₃₁Ga
+item.zincIngot.name=Mate its Zinc - ₃₀Zn
+item.arsenicIngot.name=Mate its Arsenic - ₃₃As
+item.aluminiumIngot.name=Mate its Aluminium - ₁₃Ai
+item.siliconIngot.name=Mate its Silicon - ₁₄Si
+item.galliumArsenideBoule.name=Mate its Gallium Arsenide - GaAs
+item.aluminiumSulfatePowder.name=Mate its Aluminium Sulfate -  Al₂(SO₄)₃
+item.aluminiumHydroxidePowder.name=Mate its Aluminium Hydroxide -  Al(OH)₃
+item.aluminiumOxideWafer.name=Mate its Aluminium Oxide Wafer - Al₂O₃
+item.sodiumHydrogenCarbonatePowder.name=Mate its Sodium Hydrogen Carbonate - NaHCO₃
+item.sodiumChloridePowder.name=Mate its Sodium Chloride - NaCI
+item.sodiumChlorideCrystal.name=Mate its Sodium Chloride - NaCI
+
+# Blocks
+tile.crushingStation.name=Mate its Crushing Station
+tile.gallium.name=Mate its Gallium - ₃₁Ga
+tile.zinc.name=Mate its Zinc - ₃₀Zn
+tile.arsenic.name=Mate its Arsenic - ₃₃As
+tile.aluminium.name=Mate its Aluminium - ₁₃Ai
+tile.silicon.name=Mate its Silicon - ₁₄Si

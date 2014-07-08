@@ -1,5 +1,5 @@
 # General
-itemGroup.FundamentalElectronics = Fundamental Electronics
+key.categories.FE=Fundamental Electronics
 
 # ITEMS, Subscript Reference ₀₁₂₃₄₅₆₇₈₉
 item.galliumIngot.name=Gallium - ₃₁Ga

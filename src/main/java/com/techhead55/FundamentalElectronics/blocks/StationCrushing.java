@@ -1,6 +1,6 @@
 package com.techhead55.FundamentalElectronics.blocks;
-public class BlockCrushingStation extends BaseBlock {
-    public BlockCrushingStation() {
+public class StationCrushing extends BaseStation {
+    public StationCrushing() {
         super();
         setBlockName("crushingStation");
     }

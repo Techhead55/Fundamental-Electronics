@@ -4,7 +4,8 @@ import com.techhead55.FundamentalElectronics.utility.Register;
 import net.minecraft.block.Block;
 public class Blocks {
     public static Block[] list = {
-        new BlockCrushingStation(),
+        new StationCrushing(),
+        new StationAssembly(),
         new BlockGallium(),
         new BlockZinc(),
         new BlockArsenic(),
